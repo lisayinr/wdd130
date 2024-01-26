@@ -1,0 +1,22 @@
+#first-p {
+    color: red;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.plain {
+    font-size: 17px;
+    background-color: blueviolet;
+    color: lime;
+    text-decoration:line-through;
+}
+
+#last {
+    background-color: lime;
+    color: blueviolet;
+}
+
+body {
+    background-color: yellowgreen;
+}
