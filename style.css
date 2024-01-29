@@ -1,5 +1,5 @@
 #first-p {
-    color: red;
+    color: rgb(0, 0, 0);
     font-size: 21px;
     font-weight: bold;
     font-family: Verdana;
@@ -7,16 +7,15 @@
 
 .plain {
     font-size: 17px;
-    background-color: blueviolet;
-    color: lime;
-    text-decoration:line-through;
+    background-color: rgb(91, 145, 172);
+    color: rgb(213, 205, 182);
 }
 
 #last {
-    background-color: lime;
-    color: blueviolet;
+    background-color: rgb(91, 145, 172);
+    color: rgb(213, 205, 182);
 }
 
 body {
-    background-color: yellowgreen;
+    background-color: rgb(255, 255, 255);
 }
