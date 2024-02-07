@@ -1,45 +1,4 @@
-/* body {
-    background-color: pink;
-    font-size: 100%;
-}
-
-header {
-    background-color: rgb(181, 214, 243);
-}
-
-h1 {
-    font-size: 3em;
-}
-
-h4 {
-    font-size: 1em;
-}
-
-hi,h2,h3,h4,h5,h6 {
-    color: blue;
-    font-family: Courier;
-}
-
-p {
-    color: darkolivegreen
-}
-
-img.logo {
-    width: 100px;
-}
-
-img#her-img {
-    width: 100%;
-}
-
-div.social img {
-    width: 80px;
-}
-
-img.card-img {
-    display: block;
-    margin: 0 auto;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Roboto&display=swap');
 
 #content {
     max-width: 1600px;
@@ -54,10 +13,12 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
     height: 725px;
 }
 
-
-
 body {
     background-color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color: #343835;
@@ -67,9 +28,13 @@ nav a:hover {
     color: #343835
 }
 .book, .join {
-    background-color: white;
-    color: #343835;
+    background-color: #597497;
+    color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover { 
     background-color: white;
@@ -80,27 +45,38 @@ nav a:hover {
 }
 .msg {
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #597497;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a {
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title {
     color: #B95C22;
+    font-family: Dosis, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #B95C22;
 }
 .msg h2 {
     color: #B95C22;
+    font-family: Dosis, Helvetica, sans-serif;
 }
 .msg p {
     color: #B95C22;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: white;
@@ -116,10 +92,29 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .capming-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #597497;
+}
+main section img{
+    box-sizing: border-box;
 }

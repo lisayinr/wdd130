@@ -1,0 +1,16 @@
+#main {
+    max-width: 100%;
+    display: block;
+}
+div {
+    background-color: gray;
+}
+.small {
+    border-radius: 50%;
+    width: 275px;
+    border: 17px solid rgb(66, 64, 64);
+    margin: 30px
+}
+#images {
+    text-align: center;
+}
