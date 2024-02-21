@@ -23,7 +23,7 @@ body {
     margin: 0;
 }
 header {
-    background-color: #343835;
+    background-color: #34383580;
     display: grid;
     grid-template-columns: 150px auto;
 }
