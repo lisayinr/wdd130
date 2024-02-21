@@ -187,6 +187,9 @@ nav {
         display: block;
         height: auto;
     }
+    header {
+        background-color: #343835;
+    }
     nav, footer {
         flex-direction: column;
     }
