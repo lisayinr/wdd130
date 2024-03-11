@@ -157,6 +157,7 @@ nav {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    color:#343835;
 }
 .card-img, .mountains {
     width: 100%;

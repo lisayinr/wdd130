@@ -62,3 +62,23 @@ nav a {
 .product button {
     width: 100%;
 }
+
+@media screen and (max-width: 450px){
+    #product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    nav ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* .product {
+        min-width: 100%;
+    } */
+}
+@media screen and (max-width: 350px){
+    #product-grid {
+        grid-template-columns: 1fr;
+    }
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+}
