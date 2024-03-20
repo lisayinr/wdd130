@@ -38,7 +38,7 @@ nav a:hover {
 header {
     background-color: #C10303;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 150px auto 150px;
     align-items: center;
     justify-items: center;
     gap: 30px;
