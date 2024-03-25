@@ -44,7 +44,7 @@ header {
     gap: 30px;
 }
 
-.headings {
+.headings , .subpage-title {
     font-family: Cairo, Verdana, sans-serif;
     color: #C10303;
     text-align: center;
@@ -139,6 +139,11 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.subitem{
+    font-style: italic;
+    font-size: .90em;
 }
 
 @media screen and (max-width: 600px){
