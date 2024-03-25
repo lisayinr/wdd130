@@ -141,7 +141,7 @@ footer a:hover {
     justify-content: space-evenly;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 600px){
     .info {
         margin: 100px 5%;
     }
