@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            /* makes evrything the same width because each item has different padding and borders. Basically the width of each element includes the padding and borders */
+        }
+
+        label, input, textarea, button {
+            width: 300px;
+            display: block;
+        }
+
+        input, textarea {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questions</h1>
+    <form action="thankyou.html" method="get"> 
+        <!-- method="post" is more secure so that the responses in the url -->
+        <label for="fname">*First Name:</lable>
+        <input id="fname" name="fname" type="text" placeholder="John" required>
+        <!-- is you put "required" at the end, it wont let the user submit unless something is entered -->
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Smith">
+
+        <label for="question-box">Questions:</label>
+        <textarea name="question-box" id="question-box" placeholder="Your question is..."></textarea>
+
+        <button type="submit">Ask Your Question</button>
+        <!-- having just the word "submit" is considered bad practice. type in what the action is -->
+    </form>
+</body>
+</html>

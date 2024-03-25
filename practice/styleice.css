@@ -1,0 +1,29 @@
+body {
+    background-color: #FBA6CA;
+}
+.blackfont {
+    color: black;
+    font-family: sans-serif;
+}
+body {
+    color: white;
+}
+ol {
+    font-weight: bold;
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a:hover {
+    color:black;
+}
+#bold-this {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+img {
+    
+}

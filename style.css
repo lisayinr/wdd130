@@ -1,0 +1,21 @@
+#first-p {
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.plain {
+    font-size: 17px;
+    background-color: rgb(91, 145, 172);
+    color: rgb(240, 231, 205);
+}
+
+#last {
+    background-color: rgb(91, 145, 172);
+    color: rgb(240, 231, 205);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
