@@ -149,7 +149,17 @@ footer a:hover {
     font-size: .90em;
 }
 
+.secondary-images {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin: 0 auto 70px;
+}
 
+#addshadow{
+    box-shadow: 5px 5px 10px #8c7474;
+    border-radius: 4px;
+}
 
 
 /* Slideshow container */
