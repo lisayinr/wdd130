@@ -145,8 +145,10 @@ footer a:hover {
 
 .social {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
+    overflow: auto;
+    gap: 15px;
 }
 
 .subitem{
@@ -262,7 +264,7 @@ footer a:hover {
 
 
 
-  @media screen and (max-width: 910px){
+@media screen and (max-width: 910px){
     header {
         grid-template-columns: 150px auto;
     }
@@ -272,7 +274,7 @@ footer a:hover {
     nav a {
         padding: 10px;
     }
-  }
+}
 
 @media screen and (max-width: 600px){
     .info {
@@ -307,5 +309,12 @@ footer a:hover {
     }
     nav a {
         padding: 10px;
+    }
+    .social {
+        flex-direction: column;
+        gap: 0px;
+    }
+    footer p {
+        margin: 1px 0px;
     }
 }
