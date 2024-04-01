@@ -38,6 +38,11 @@ nav a:hover {
     border-radius: 4px;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 header {
     background-color: #C10303;
     display: grid;
@@ -283,5 +288,11 @@ footer a:hover {
     }
     #spanish {
         font-size: 20px;
+    }
+    header {
+        grid-template-columns: 150px auto;
+    }
+    nav {
+        justify-content: center;
     }
 }
