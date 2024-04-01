@@ -293,6 +293,6 @@ footer a:hover {
         grid-template-columns: 150px auto;
     }
     nav {
-        justify-content: center;
+        justify-content: right;
     }
 }
