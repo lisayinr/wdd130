@@ -87,9 +87,9 @@ header {
     background-color: #C10303;
     color: #ffffff;
     text-align: center;
-    margin: 0 3% 75px;
+    margin: 0px auto 75px ;
     max-width: 950px;
-    padding: 55px 0px 55px 0px;
+    padding: 45px 0px 45px 0px;
     font-size: 26px;
     font-family: Cairo, Verdana, sans-serif;
     border-radius: 8px;
@@ -313,6 +313,7 @@ ul{
     #contact-box {
         font-size: 18px;
         padding: 30px 0px 30px 0px;
+        margin: 0px 3% 65px 3%;
     }
     #together a {
         font-size: 16px;
