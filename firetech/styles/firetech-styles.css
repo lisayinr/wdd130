@@ -262,7 +262,17 @@ footer a:hover {
 
 
 
-
+  @media screen and (max-width: 910px){
+    header {
+        grid-template-columns: 150px auto;
+    }
+    nav {
+        justify-content: right;
+    }
+    nav a {
+        padding: 10px;
+    }
+  }
 
 @media screen and (max-width: 600px){
     .info {
@@ -294,5 +304,8 @@ footer a:hover {
     }
     nav {
         justify-content: right;
+    }
+    nav a {
+        padding: 10px;
     }
 }
