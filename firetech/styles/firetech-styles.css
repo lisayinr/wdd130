@@ -292,6 +292,11 @@ ul{
     nav a {
         padding: 10px;
     }
+    #contact-box {
+        font-size: 18px;
+        padding: 30px 0px 30px 0px;
+        margin: 0px 3% 65px 3%;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -310,11 +315,11 @@ ul{
     footer {
         font-size: 14px;
     }
-    #contact-box {
+    /* #contact-box {
         font-size: 18px;
         padding: 30px 0px 30px 0px;
         margin: 0px 3% 65px 3%;
-    }
+    } */
     #together a {
         font-size: 16px;
     }
